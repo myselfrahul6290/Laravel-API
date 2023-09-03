@@ -1,3 +1,3 @@
 ## EndPoint
 
--[Get all posts:] GET /api/user
+- [Get all posts:] GET /api/user
