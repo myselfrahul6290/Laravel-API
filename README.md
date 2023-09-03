@@ -8,9 +8,10 @@
 
 ## Routes
 
+<pre>
 Route::get('/user',[userDataController::class,'index']);
 Route::get('/user/{id}',[userDataController::class,'show']);
 Route::post('/user',[userDataController::class,'store']);
 Route::put('/user/{id}',[userDataController::class,'update']);
 Route::delete('/user/{id}',[userDataController::class,'destroy']);
-
+</pre>
